@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+this file definitions works as global css font-face rules and expected to be used intead of font-face rules
+
+possible value for:
+- style: normal italic oblique
+- weight: thin extralight light normal medium semibold bold extrabold black
+        : 100 200 300 400 500 600 700 800 900
+all other values will be treated as error
+-->
+
+<fontconfig>
+    <fallback family="$WWSDefaultFont" />
+    <fonts>
+        <font family="$WWSDefaultFont" style="normal" weight="medium" >
+            <src realm="ASIA" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="CN" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="EU" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="KO" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="RU" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="TH" path="SrcHelios/SrcHeliosMedium.ttf" />
+        </font>
+        <font family="$WWSDefaultFontBold" style="normal" weight="bold" >
+            <src realm="ASIA" path="SrcHelios/SrcHeliosBold.ttf" />
+            <src realm="CN" path="SrcHelios/SrcHeliosBold.ttf" />
+            <src realm="EU" path="gui/fonts/Warhelios_Bold.ttf" />
+            <src realm="KO" path="gui/fonts/WarheliosKO_Bold.ttf" />
+            <src realm="RU" path="gui/fonts/Warhelios_Bold.ttf" />
+            <src realm="TH" path="gui/fonts/Warhelios_Bold.ttf" />
+        </font>
+        <font family="$IMELanguageBar" style="normal" weight="medium" >
+            <src realm="ASIA" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="CN" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="EU" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="KO" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="RU" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="TH" path="SrcHelios/SrcHeliosMedium.ttf" />
+        </font>
+        <font family="$IMECandidateListFont" style="normal" weight="medium" >
+            <src realm="ASIA" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="CN" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="EU" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="KO" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="RU" path="SrcHelios/SrcHeliosMedium.ttf" />
+            <src realm="TH" path="SrcHelios/SrcHeliosMedium.ttf" />
+        </font>
+    </fonts>
+</fontconfig>
