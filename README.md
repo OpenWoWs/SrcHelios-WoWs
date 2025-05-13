@@ -1,8 +1,8 @@
-# SrcHelios-WG
+# SrcHelios-WoWs
 ## 介绍
-为战舰世界（Wargaming）制作的优化版字体，聚合Source Han Sans（多语言）与Warhelios字形。
+为战舰世界（World of Warships）制作的优化版字体，聚合Source Han Sans（多语言）与Warhelios字形。
 ## 下载
-进入[最新发布](https://github.com/OpenKorabli/SrcHelios-WG/releases/latest)，下载`SrcHelios-WG.zip`；
+进入[最新发布](https://github.com/OpenWoWs/SrcHelios-WoWs/releases/latest)，下载`SrcHelios-WoWs.zip`；
 大陆用户可通过[蓝奏云](https://tapio.lanzn.com/b0nyjuylc)下载。
 ## 安装
 1. 进入游戏目录，打开`bin`文件夹；
